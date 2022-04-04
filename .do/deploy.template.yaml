@@ -1,0 +1,8 @@
+spec:
+  name: SMTP_Final_Redes_III
+  services:
+  - environment_slug: node-js
+    git:
+      branch: main
+      repo_clone_url: https://github.com/JuanCamiloMartinezLopez/SMTP_Final_Redes_III.git
+    name: SMTP_Final_Redes_III

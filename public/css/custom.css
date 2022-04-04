@@ -1,0 +1,62 @@
+/* body */
+body{
+    margin: 10%;
+    background-color: rgb(181, 226, 220);
+}
+
+/* Bordered form */
+form {
+
+    border: 3px solid #f1f1f1;
+    background-color: aliceblue;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password],[type=email] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+background-color: #0430aa;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+opacity: 0.8;
+}
+
+
+
+/* Add padding to containers */
+.container {
+    border: 3px solid #f1f1f1;
+    align-content: center;
+    margin: 10%;
+    padding: 16px;
+}
+
+
+textarea{
+    width: 100%;
+    resize: none;
+    grid-column: "50" ;
+    grid-row: "20" ;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    background-color: #0430aa;
+}
