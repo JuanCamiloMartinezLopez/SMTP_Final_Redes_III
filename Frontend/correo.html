@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Frontend/custom.css">
+
+    <title>Servidor SMTP</title>
+</head>
+<body>
+    <div class="container">
+        <label for="EnviarMsj">Enviar Mensaje</label>
+        <label for="CorreoDestino"><b>Correo Destino: </b></label>
+        <input type="email" placeholder="xxxx@xxx.com" name="CorreoDestino" required>
+        <input type="text" placeholder="Contenido del correo" name="contenido" required>
+        <button type="submit" id="enviarCorreo">Enviar</button>
+    </div>
+    <div class="container">
+        <label for="Correos">Seccion de correos POP</label><br>
+        <textarea type="text" id="bandeja" name="uname" readonly ></textarea>
+    </div>
+
+
+
+</body>
+</html>
