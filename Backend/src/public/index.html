@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="/Frontend/custom.css">
+    <link rel="stylesheet" type="text/css" href="./css/custom.css">
 </head>
 <body>
-    <form action="correo.html" method="post">
+    <h1>Email Client</h1>
+    <form >
         <div class="container">
             <label for="uname"><b>Usuario</b></label>
-            <input type="email" placeholder="xxxx@xxx.com" name="uname" required>
+            <input type="email" id="email" placeholder="xxxx@xxx.com" name="uname" required>
             <label for="psw"><b>Contraseña</b></label>
-            <input type="password" placeholder="******" name="psw" required>
-            <button type="submit">Ingresar</button>
+            <input type="password" id="password" placeholder="******" name="psw" required>
+            <button type="button" onclick="ingresar(event)">Ingresar</button>
         </div>
     </form>
-    <script src="/Frontend/index.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@ form {
 }
 
 /* Full-width inputs */
-input[type=text], input[type=password] {
+input[type=text], input[type=password],[type=email] {
 width: 100%;
 padding: 12px 20px;
 margin: 8px 0;
@@ -53,4 +53,10 @@ textarea{
     resize: none;
     grid-column: "50" ;
     grid-row: "20" ;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    background-color: #0430aa;
 }
